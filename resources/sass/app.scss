@@ -1,0 +1,67 @@
+
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+.navbar{
+    height: 47px;
+}
+html, body{
+    height: 100%;
+}
+
+
+#app{
+    height: 100%;
+
+}
+
+.navbar{
+    position: relative;
+    z-index: 999;
+}
+
+main{
+    height: calc(100% - 47px);
+    background: $light;
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+
+i.display-4{
+    font-weight: 600 !important;
+}
+
+.form-control-underline{
+    background: transparent !important;
+    border:none;
+    box-shadow: none;
+    border-bottom: rgba(255, 255, 255, 0.8) 2px solid;
+}
+
+.form-control-underline:focus{
+    background: transparent !important;
+    border:none;
+    box-shadow: none;
+    border-bottom: rgba(255, 255, 255, 0.3) 2px solid;
+}
+
+
+
+.tiny{
+    font-size: 60%;
+}
+
+
+.grid-item{
+    height: 250px;
+    width: 250px;
+}
+
+.grid-item-image{
+    height: 160px;
+}
